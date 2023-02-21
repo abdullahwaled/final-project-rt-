@@ -1,0 +1,26 @@
+.eventcard{
+  width: 40%;
+  border: none;
+}
+.eventcard img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.eventcard h3,.eventcard small{
+  color: #EF5874;
+  font-size: 25px;
+  font-family: normal !important;
+}
+.eventcard h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 18px;
+  font-size: 24px;
+  border-bottom: 2px solid #A15656;;
+}
+.eventcard p{
+  color: #032C4B;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  padding: 7px;
+}

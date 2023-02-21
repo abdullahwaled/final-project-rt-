@@ -1,0 +1,40 @@
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 2px solid rgba(252, 251, 251, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+  color: #898fa1;
+}
+footer .footer-links p{
+  color: #d6d8de;
+}
+.title-sm,
+.footer-bottom p{
+  color: #f6f8ff;
+}
+footer .social-icons a {
+  font-size: 25px;
+  padding: 6px;
+}
+
+footer .footer-links a {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px;
+
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+  color: #E93B81;
+}

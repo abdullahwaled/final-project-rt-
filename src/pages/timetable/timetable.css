@@ -1,0 +1,80 @@
+.timetable section.top {
+  background-image: url('../../asset/image/17.jpg');
+  background-color: #242424;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  
+}
+.timetable section.top::before{
+    content: '';
+    background-color: rgb(31, 30, 30);
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.timetable section.top div{
+  position: absolute;
+  left: 50%;
+  z-index: 99;
+  width: 100%;
+  margin: 85px 0;
+  margin-left: -50%;
+  text-align: center;
+}
+.timetable section.top div h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #fff;
+}
+.timetable section.top div a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+.timetable section.top div span{
+  color: #fff;
+  opacity: .6;
+  font-size: 19px;
+}
+
+.timetable section.time .btn-group {
+  width: 175px;
+  background-color: #fff !important;
+  color: #EF5874;
+}
+.timetable section.time .btn-group button{
+  width: 175px;
+  background-color: #fff !important;
+  color: #EF5874;
+  border: 2px solid #EF5874;
+  padding: 6px;
+}
+.timetable section.time .btn-group .dropdown-menu{
+  background-color: #EF5874;
+}
+.timetable section.time .btn-group .dropdown-menu li{
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.timetable section.time .btn-group .dropdown-menu li:hover,
+.timetable section.time .btn-group .dropdown-menu li.active{
+  background-color: #fff;
+  color: #EF5874;
+}
+
+
+
+@media (max-width:720px) {
+  .table{
+    width: 100%;
+    
+  }
+  
+}

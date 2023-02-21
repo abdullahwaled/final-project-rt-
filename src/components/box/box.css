@@ -1,0 +1,18 @@
+.box{
+  text-align: center;
+}
+.box h1{
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  color: #00BEB0;
+  font-weight: bold;
+}
+.box p{
+  font-family: normal;
+  color: #716262;
+  width:100%;
+  padding-top: .25rem !important;
+  padding-bottom: .25rem !important;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}

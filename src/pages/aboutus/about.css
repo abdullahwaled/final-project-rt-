@@ -1,0 +1,118 @@
+.about section.top {
+  background-image: url('../../asset/image/4.jpg');
+  background-color: #242424;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  
+}
+.about section.top::before{
+    content: '';
+    background-color: rgb(31, 30, 30);
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.about section.top div{
+  position: absolute;
+  left: 50%;
+  z-index: 99;
+  width: 100%;
+  margin: 85px 0;
+  margin-left: -50%;
+  text-align: center;
+}
+.about section.top div h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #fff;
+}
+.about section.top div a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+.about section.top div span{
+  color: #fff;
+  opacity: .6;
+  font-size: 19px;
+}
+.about section.box div img {
+  width: 45%;
+  height: 30rem;
+}
+.about section.box .bot{
+  border-top: 1px solid #414141;
+}
+.about section.box div img.bott {
+  width: 50%;
+  height: 35rem;
+}
+.about section.box .line{
+  width: 44.2%;
+  height: 14px;
+  background-color: #00BEB0;
+  color: wheat;
+}
+
+.about section.bottom{
+  background-color: #00BEB0;
+  width: 100%;
+  height: 300px;
+}
+.about section.bottom div{
+  width: 16%;
+  height: 100px;
+  padding-top: 65px;
+  
+}
+
+.about section.bottom div img{
+  width: 90px;
+  height: 85px;
+  background-color: #86D09D;
+  border-radius: 50%;
+
+}
+
+.about section.bottom div p{
+  font-size: 26px;
+  margin-top: 25px;
+  padding-top: 10px;
+  opacity: .8;
+  position: relative;
+  width: 100%;
+}
+.about section.bottom div p::before{
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -10px;
+  width: 25px;
+  height: 2px;
+  opacity: .8;
+}
+.about section.bottom div h6{
+  font-size: 14px;
+  font-weight: bold;
+  opacity: .8;
+}
+@media (max-width: 710px) {
+  .about section.bottom{
+    display: flex;
+    gap: 20px;
+  }
+  .about section.bottom div {
+    width: 16%;
+    height: 100px;
+  }
+
+  
+}
